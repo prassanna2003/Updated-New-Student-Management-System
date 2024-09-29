@@ -1,0 +1,42 @@
+/* Style for the entire table */
+table {
+  width: 800px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the table header */
+th {
+  background-color: #4CAF50; /* Green background for header */
+  color: white;              /* White text for header */
+  text-align: center;         /* Center align header text */
+  padding: 12px;             /* More padding for header cells */
+  font-size: 18px;           /* Larger font size for header */
+}
+
+/* Style for table rows */
+td {
+  padding: 10px;
+  text-align: left;           /* Left-align data cells */
+  font-size: 16px;            /* Standard font size */
+}
+
+/* Style for alternate row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;  /* Light gray background for even rows */
+}
+
+tr:nth-child(odd) {
+  background-color: #e0e0e0;  /* Slightly darker gray for odd rows */
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #ddd;      /* Highlight row on hover */
+}
+
+/* Table border style */
+table, th, td {
+  border: 1px solid #000;      /* Solid black border */
+}
